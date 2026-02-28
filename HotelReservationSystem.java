@@ -20,7 +20,7 @@ public class HotelReservationSystem {
 		}
 		String url="jdbc:mysql://localhost:3306/hotel_db";
 		String username="root";
-		String password="tiger";
+		String password="your_password_here";
 		try {
 			Connection con=DriverManager.getConnection(url,username,password);
 			System.out.println("Welcome to Hotel Reservation System");
@@ -255,3 +255,4 @@ public class HotelReservationSystem {
 		}
 	}
 }
+
